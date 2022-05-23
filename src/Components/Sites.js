@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Sites-sub/Header'
 import Footer from "./Footer";
+import './styles/sites.css'
 
 // import Blocs from './Sites-sub/Blocs'
 
