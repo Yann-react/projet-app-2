@@ -1,0 +1,210 @@
+
+/* style for second page */
+
+
+
+
+/* welcome text */
+
+.textGroup{
+    position: absolute;
+    top: 30vh;
+    left: 3vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    text-align: left;
+  
+  }
+  
+  .textGroup-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  
+  .textGroup > span:nth-child(2){
+    margin-top: 2vh;
+    font-size: 1.3rem;
+  
+  }
+  .textGroup > button{
+    background-color: #f29b30b6;
+    color: white;
+    box-shadow: 0px 5px 11px #585656;
+    width: 9vw;
+    height: 6vh;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    margin-top: 4vh;
+    cursor: pointer;
+  }
+  
+
+
+
+
+.sites-content{
+  
+    position: absolute;
+    width: 100vw;
+    height: 150vh;
+    background-color: #fffbf8;
+  }
+  
+  .sitesHeader{
+    position: relative;
+    top: 0vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .secGroup{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  
+  .sitesHeader > h3{
+    /* position: absolute; */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 75vw;
+  }
+  
+  .secGroup > span {
+    position: absolute;
+    width: 50vw;
+    text-align: left;
+    left: 4vw;
+    font-size: 1.3rem;
+    font-bold: bold;
+  }
+  
+  .secGroup > button {
+    position: absolute;
+    right: 20vw;
+    background-color: #f29b30e1;
+    color: white;
+    box-shadow: 0px 5px 11px #8b8a8a;
+    width: 9vw;
+    height: 6vh;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+  
+    cursor: pointer;
+  }
+  
+  .blocs{
+    display: flex;
+    position: absolute;
+    top: 35vh;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgba(56, 132, 61, 0.052);
+    justify-items: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .nosites{
+    display: flex;
+    flex-direction: column;
+  }
+  .nosites > h3{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .nosites > hr{
+    position: absolute;
+    width: 7vw;
+    border: 0.06rem solid #f29b30;
+    top: 10vh;
+  }
+  
+  .blocs-content{
+  
+    display: flex;
+    flex-direction: row;
+  }
+  .blocs-content > img {
+  
+    width: 20vw;
+    margin-left: 3vw;
+    border-radius: 0.3rem;
+    /* border: 0.2rem solid #ffc06e; */
+    box-shadow: 10px 10px 35px -9px rgba(0,0,0,0.39);
+  -webkit-box-shadow: 10px 10px 35px -9px rgba(0,0,0,0.39);
+  -moz-box-shadow: 10px 10px 35px -9px rgba(0,0,0,0.39);
+  
+  }
+  
+  
+  /* footer styling starting here */
+  
+  .footer{
+    bottom: 0vh;
+  }
+  
+  .BlueBloc{
+    position: absolute;
+    top:57vh;
+    background-color: #2e6fa1;
+    width: 100vw;
+    height: 30vh;
+  }
+  
+  .BlueBloc > h3{
+    
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .sponsors > img {
+  
+    width: 6.1vw;
+    margin-left: 5vw;
+    box-shadow: 10px 10px 35px -9px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 10px 10px 35px -9px rgba(0,0,0,0.39);
+    -moz-box-shadow: 10px 10px 35px -9px rgba(0,0,0,0.39);
+    border-radius: 0.4rem;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .sponsors > img:hover{
+  
+    box-shadow: 10px 10px 35px -9px rgba(243, 114, 50, 0.39);
+    -webkit-box-shadow: 10px 10px 35px -9px rgba(225, 111, 45, 0.39);
+    -moz-box-shadow: 10px 10px 35px -9px rgba(244, 111, 34, 0.39);
+  
+  }
+  
+  .GreyBloc{
+    position: absolute;
+    top:87vh;
+  
+    background-color: #d8d8d88f;
+    width: 100vw;
+    height: 30vh;
+  }
+  
+  .GreyBloc > div:nth-child(1) > ul{
+  
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 30vw;
+  
+  
+  }
+  
+  .GreyBloc > div:nth-child(1) > ul > li{
+  
+    margin-left: 10vw;
+    font-size: 1.6rem;
+    font-weight: 600;
+  
+  }

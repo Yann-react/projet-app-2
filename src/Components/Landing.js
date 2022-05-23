@@ -1,6 +1,7 @@
 import Header from './Landind-sub/Header'
 import Welco from './Landind-sub/Welco'
 import React from 'react'
+import './styles/landing.css'
 
 // import '../bas4.jpg'
 
