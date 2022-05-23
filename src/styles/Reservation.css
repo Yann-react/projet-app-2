@@ -1,0 +1,103 @@
+.box-grand{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.box-form{
+    display: flex;
+    width: 58%;
+}
+.img2{
+    border-radius: 10px;
+    box-shadow:  -21px -21px 42px #d4d4d4,
+    21px 21px 42px #ffffff;
+}
+.form{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px ;
+    background: #ffffff;
+box-shadow:  26px 26px 59px #d4d4d4,
+             -26px -26px 59px #ffffff00;
+}
+.form p , .form h3 {
+text-align: center;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    width: 86%;
+    align-self: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+.name input{
+    border-radius: 5px;
+    height: 40%;
+}
+.nom{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+.prnom{
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+}
+.originSex{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    align-self: center;
+    width: 86%;
+    justify-content: space-between;
+    font-weight: bold;
+
+
+}
+.originSex input{
+    border-radius: 5px;
+    height: 80%;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    align-self: center;
+    font-weight: bold;
+}
+.mail input{
+    width: 70%;
+    border-radius: 5px;
+    height: 80%;
+}
+.mail label{
+    margin-right: auto ;
+}
+.sx{
+    display: flex;
+    flex-direction: column;
+    width: 30%;  
+}
+.origin{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.but{
+    width: 60px;
+    margin-left: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: none;
+    height: 24px;
+    font-weight: bold;
+    color: white;
+    background-color:rgba(242, 155, 48, 0.96) ;
+}

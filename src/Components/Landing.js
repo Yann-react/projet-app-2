@@ -11,9 +11,9 @@ const Landing = () => {
             <div className='huey' ></div>
             <Header title='TWOMAP' />
             <div className='landing-content' >
-                <img src={require('../bas4.jpg')} />
-                <img src={require('../bas2.jpg')} />
-                <img src={require('../bas3.jpg')} />
+                <img src={require('../assets/bas4.jpg')} />
+                <img src={require('../assets/bas2.jpg')} />
+                <img src={require('../assets/bas3.jpg')} />
             </div>
 
             <Welco />

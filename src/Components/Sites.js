@@ -20,9 +20,9 @@ const Sites = () => {
 </div>
 
 <div className='blocs-content' >
-        <img src={require('../bas4.jpg')} />
-        <img src={require('../bas2.jpg')} />
-        <img src={require('../bas3.jpg')} />
+        <img src={require('../assets/bas4.jpg')} />
+        <img src={require('../assets/bas2.jpg')} />
+        <img src={require('../assets/bas3.jpg')} />
 </div>
 
 

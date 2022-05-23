@@ -1,0 +1,41 @@
+.FormRsv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.sithotl, .yourslf{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    
+}
+.sithotl{
+    margin-bottom: 80px;
+}
+.sitvisi , .hotl{
+    display: flex;
+    flex-direction: column;
+}
+.sithotl input , .yourslf input {
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+.dur , .allrgi{
+    display: flex;
+    flex-direction: column;
+}
+.but3{
+    margin-left: 700px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: none;
+    height: 24px;
+    font-weight: bold;
+    color: white;
+    background-color:rgba(124, 165, 36, 0.61) ;
+    width: 60px;
+}
