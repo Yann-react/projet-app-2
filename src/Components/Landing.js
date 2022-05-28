@@ -13,6 +13,7 @@ const Landing = () => {
             <Header title='TWOMAP' />
             <div className='landing-content' >
 
+
                 <div className='img__wrap' >
                 <img className='l-images l-images-1' src={require('../banco.jpg')} />
                 <div className="img__description_layer">
@@ -34,6 +35,9 @@ const Landing = () => {
                 </div>
                 </div>
 
+                <img src={require('../assets/bas4.jpg')} />
+                <img src={require('../assets/bas2.jpg')} />
+                <img src={require('../assets/bas3.jpg')} />
             </div>
 
             <Welco />

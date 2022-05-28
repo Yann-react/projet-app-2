@@ -39,9 +39,15 @@ const handleToggle = () => setIsActive(!isActive);
 
 <div className='blocs-content' >
 
+
         <img onClick={ ()=> {setShow1(true); setClose(false)}}  src={require('../bas4.jpg')} />
         <img onClick={ ()=> {setShow2(true); setClose(false)}}  src={require('../jbotanik.jpg')} />
         <img onClick={ ()=> {setShow3(true); setClose(false)}} src={require('../palais.jpg')} />
+
+
+        <img src={require('../assets/bas4.jpg')} />
+        <img src={require('../assets/bas2.jpg')} />
+        <img src={require('../assets/bas3.jpg')} />
 
 </div>
 
