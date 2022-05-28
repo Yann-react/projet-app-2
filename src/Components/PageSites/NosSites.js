@@ -18,13 +18,84 @@ const NosSites = () => {
             <img src={require('../../noimage.webp')} />
             <img src={require('../../noimage.webp')} />
 
-            <img src={require('../../noimage.jpg')} />
-            <img src={require('../../noimage.jpg')} />
-            <img src={require('../../noimage.jpg')} />
-
-
+                <div className='img__wrap' >
+            <img className='boxes-img' src={require('../../assets/bas4.jpg')} />
+            <div className="img__description_layer">
+                <p className="img__description">Basilique Notre Dame de la Paix</p>
+                </div>
             </div>
 
+
+            <div className='img__wrap' >
+            <img className='boxes-img' src={require('../../jbotanik.jpg')} />
+            <div className="img__description_layer">
+                <p className="img__description">Jardin Botanique de Bingerville
+                </p>
+                </div>
+            </div>
+
+
+            <div className='img__wrap' >
+            <img className='boxes-img' src={require('../../banco.jpg')} />
+            <div className="img__description_layer">
+                <p className="img__description">Parc National du Banco</p>
+                </div>
+            </div>
+
+            <div className='img__wrap' >
+            <img className='boxes-img' src={require('../../assets/bas2.jpg')} />
+            <div className="img__description_layer">
+                <p className="img__description">Site</p>
+                </div>
+            </div>
+
+            <div className='img__wrap' >
+            <img className='boxes-img' src={require('../../noimage.webp')} />
+            <div className="img__description_layer">
+                <p className="img__description">Site</p>
+                </div>
+            </div>
+
+            <div className='img__wrap' >
+            <img className='boxes-img' src={require('../../noimage.webp')} />
+            <div className="img__description_layer">
+                <p className="img__description">Site</p>
+                </div>
+            </div>
+
+
+
+            <div className='img__wrap' >
+            <img className='boxes-img' src={require('../../noimage.jpg')} />
+            <div className="img__description_layer">
+                <p className="img__description">Site</p>
+                </div>
+            </div>
+
+
+            <div className='img__wrap' >
+            <img className='boxes-img' src={require('../../noimage.jpg')} />
+            <div className="img__description_layer">
+                <p className="img__description">Site</p>
+                </div>
+            </div>
+
+            <div className='img__wrap' >
+            <img className='boxes-img' src={require('../../noimage.jpg')} />
+            <div className="img__description_layer">
+                <p className="img__description">Site</p>
+                </div>
+            </div>
+
+
+        
+            <div className='img__wrap' >
+            <img className='boxes-img' src={require('../../noimage.jpg')} />
+            <div className="img__description_layer">
+                <p className="img__description">Site</p>
+                </div>
+            </div>
+            </div>
           <Footer />
           </div>
     </div>

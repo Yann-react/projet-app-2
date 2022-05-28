@@ -29,7 +29,13 @@ h3{
     flex-wrap: wrap;
 }
 
-.boxes>img{
+.boxes > div{
+    
+    margin-right: 5vw;
+
+}
+
+.boxes-img{
 
     width: 22vw;
     height: 31vh;
@@ -41,4 +47,52 @@ h3{
     -moz-box-shadow: 1px 10px 21px 3px rgba(140,138,138,0.75);
   margin-bottom: 5vh;
 
+
 }
+
+
+.img__wrap {
+    height: 29vh;
+    width: 20.4vw;
+    position: relative;
+    margin-bottom: 5vh;
+
+  }
+
+  .img__description_layer {
+    position: absolute;
+    width: 22vw;
+    top: 0;
+    bottom: 0;
+    left: 3vw;
+    height: 31vh;
+    border-radius: 0.3rem;
+    right: 0;
+    background: rgba(15, 15, 18, 0.35);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img__wrap:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+
+  }
+  
+  .img__description {
+    transition: .2s;
+    transform: translateY(1em);
+  }
+  
+  .img__wrap:hover .img__description {
+    transform: translateY(0);
+  }
+
