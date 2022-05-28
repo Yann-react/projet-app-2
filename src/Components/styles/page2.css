@@ -5,11 +5,7 @@
     border-radius: 10px;
 }
 
-hr{
-    width: 65vw;
-    height: 0.05vh;
-    background-color: black;
-}
+
 h3{
     font-size: 2em;
     color: #222627;
@@ -18,7 +14,7 @@ h3{
 }
 
 .cadre{
-    position: absolute;
+    position: relative;
     top: 15vh;
     width: 100vw;
     height: 85vh;

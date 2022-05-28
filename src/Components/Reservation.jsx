@@ -1,9 +1,14 @@
 import React from 'react'
 import '../styles/Reservation.css'
 import img1 from '../assets/img1.jpg'
+import HearderAll from './HearderAll'
+import Footer from './Footer'
+import { useNavigate } from 'react-router-dom'
 export default function Reservation() {
-  return (
+  const navigate = useNavigate()
+    return (
     <>
+    <HearderAll name='Rsv' />
       <div className="box-grand">
             <div className="box-form">
            
@@ -36,11 +41,12 @@ export default function Reservation() {
                             <input type="text" />
                     </div>
                 </div>
-                    <button className="but">Suivant</button>
+                    <button className="but" onClick={()=>navigate('FormResv')}>Suivant</button>
                     </div>
             </div>
   
         </div> 
+        <Footer />
     </>
   )
 }

@@ -1,6 +1,8 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom'
 const Header = ({title}) => {
+  
+  const navigate = useNavigate()
   return (
     <div>
 
@@ -10,9 +12,9 @@ const Header = ({title}) => {
 <span>{title}</span>
 
         <ul>
-            <li> Accueil </li>
-            <li> Sites </li>
-            <li> <button  className='btn'>Réserver</button> </li>
+            <li onClick={()=> navigate('/')}> Accueil </li>
+            <li onClick={()=> navigate('/Site')}> Sites </li>
+            <li onClick={()=> navigate('/Reservation')}> <button  className='btn'>Réserver</button> </li>
         </ul>
     </div>
 

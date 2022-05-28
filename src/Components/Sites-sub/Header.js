@@ -1,6 +1,7 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom'
 const Header = () => {
+  const navigate = useNavigate()
   return (
     <div>
 
@@ -17,7 +18,7 @@ const Header = () => {
         lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </span>
 
-        <button> VOIR PLUS </button>
+        <button onClick={()=> navigate('/Site')}> VOIR PLUS </button>
         </div>
     </div>
 

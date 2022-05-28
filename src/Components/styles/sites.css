@@ -78,8 +78,9 @@
     text-align: left;
     left: 4vw;
     font-size: 1.3rem;
-    font-bold: bold;
+    /* font-bold: bold; */
   }
+ 
   
   .secGroup > button {
     position: absolute;
@@ -149,8 +150,9 @@
   }
   
   .BlueBloc{
-    position: absolute;
-    top:57vh;
+    /* position: absolute; */
+    /* top:57vh; */
+    margin-top: 220px;
     background-color: #2e6fa1;
     width: 100vw;
     height: 30vh;
@@ -162,11 +164,13 @@
     font-weight: 600;
     color: white;
   }
-  
+  .sponsors{
+    margin-right: 4vw;
+  }
   .sponsors > img {
   
-    width: 6.1vw;
-    margin-left: 5vw;
+    width: 4.1vw;
+    margin-left: 3vw;
     box-shadow: 10px 10px 35px -9px rgba(0,0,0,0.39);
     -webkit-box-shadow: 10px 10px 35px -9px rgba(0,0,0,0.39);
     -moz-box-shadow: 10px 10px 35px -9px rgba(0,0,0,0.39);
@@ -183,28 +187,12 @@
   }
   
   .GreyBloc{
-    position: absolute;
-    top:87vh;
-  
-    background-color: #d8d8d88f;
-    width: 100vw;
-    height: 30vh;
-  }
-  
-  .GreyBloc > div:nth-child(1) > ul{
-  
     display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin-left: 30vw;
-  
-  
-  }
-  
-  .GreyBloc > div:nth-child(1) > ul > li{
-  
-    margin-left: 10vw;
-    font-size: 1.6rem;
-    font-weight: 600;
-  
+    justify-content: space-between;
+    border: solid 1px;
+    background-color: rgba(196, 196, 196, 0.582);
+    /* height: 220px; */
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
   }

@@ -1,8 +1,15 @@
 import React from 'react'
 import '../styles/FormReservation.css'
+import Footer from './Footer'
+import HearderAll from './HearderAll'
+import { useNavigate } from 'react-router-dom'
+
 export default function FormReservation() {
+  const navigate = useNavigate()
+
   return (
     <>
+    <HearderAll name='Rsv' />
         <div className="FormRsv">
             <div className="sithotl">
                 <div className="sitvisi">
@@ -24,8 +31,9 @@ export default function FormReservation() {
                 <textarea name="" id="" cols="30" rows="10"></textarea>   
                 </div>
             </div>
-            <button className="but3">Valider</button>
+            <button className="but3" >Valider</button>
         </div>
+        <Footer />
     </>
   )
 }
